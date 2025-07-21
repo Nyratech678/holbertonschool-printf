@@ -7,5 +7,6 @@
 #include <stddef.h>
 
 int _printf(const char *format, ...);
+int handle_format(const char *format, int *i, va_list args);
 
 #endif
